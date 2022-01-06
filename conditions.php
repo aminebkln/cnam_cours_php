@@ -27,7 +27,4 @@ if ($isWateroff && $isGasoff) {
 
 
 
-
-
-
 }
