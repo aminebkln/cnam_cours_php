@@ -10,15 +10,16 @@ $cartes = [
  'carreau',
 ];
 dump($cartes);
-$number = random_int(1, 4);
+$number = random_int(1,5);
+
  dump($number);
 
- $cartesJouee = array_splice ($cartes, $number, -1,2);
+ $cartesJouee = array_splice ($cartes, $number -1, 1);
 
  dump($cartesJouee);
  
 
 
-echo "vous avez tire la carte n°{$number},{$cartesJouee [0]}.<br>\n";
+echo "vous avez tire la carte n°{$number},{$cartesJouee[0]}.<br>\n";
 
 
