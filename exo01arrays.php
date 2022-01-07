@@ -1,9 +1,7 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
 $emptArray = [];
-
-$cartes = [ 'pique','coeur',' trèfle','AS','carreau'];
-
+    
 $cartes = [
  'pique',
  'coeur',
