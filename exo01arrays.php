@@ -1,5 +1,5 @@
 <?php
-
+require __DIR__.'/vendor/autoload.php';
 $emptArray = [];
 
 $cartes = [ 'pique','coeur',' trèfle','AS','carreau'];
@@ -11,7 +11,16 @@ $cartes = [
  'AS',
  'carreau',
 ];
+dump($cartes);
+$number = random_int(-1, 4);
+ dump($number);
 
-$number = random_int(0, 5);
+ $cartesJouee = array_splice ($cartes, $number, -1,4);
+
+ dump($cartes);
  
+
+
 echo "vous avez tire la carte n°1,:{$cartes[$number]}<br>\n";
+
+
