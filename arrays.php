@@ -112,3 +112,22 @@ if (!in_array('ananas', $sbigtListe)){
     echo "il n'ya pas d'ananas dans la liste<br>\n";
 }
 if (in_arry('carotte', $bigListe));
+
+
+
+$data [,
+  'nom' => amine ,
+  'prenom'=>toto,
+  'age'=>toto,
+  'email'=>'toto.lorem@example.com',
+  'validation'=>tru,
+];
+dump($data);
+//acces en lecture 
+echo "Email:{$data['email']}";
+//acces en ecriture 
+$data ['age'] = 12;
+//ajoute d'un couple clé valeur 
+$data ['spammer']= true 
+//supression d'un couple cle valeur 
+unset ($data['spammer']);
